@@ -114,6 +114,11 @@ body{
 	background: linear-gradient(to right, #00b3c1 0%, #00b36c 19%, #00b3c1 22%, #c34b9b 61%, #f1563c 76%, #f0c83b 89%, #f0c83b 100%);
 }
 
+.header_logo{
+  width: 157;
+  height: 45px;
+}
+
 .header_register a{
  color: #000000;
  font-family: "Lato";
@@ -200,6 +205,23 @@ line-height: normal;
  align-items: center;
 }
 
+.loop{
+  display: block;
+  position: relative;
+  width: 95px;
+  height: 60px;
+  padding-left: 45px;
+}
+
+.header_loop_link:before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: url(../gallery/sprites.png) 313px -140px;
+
+}
+
 .basket{
  display: block;
  position: relative;
@@ -270,6 +292,11 @@ background-color: #f2f2f2;
  margin-left: 465px;
  margin-top: 40px;
  text-transform: uppercase;
+}
+
+.intro_readmore_button:hover{
+  background-color:  #f2f2f2;
+  font-size: 21px;
 }
 
 .about{
@@ -438,6 +465,11 @@ background-color: #f2f2f2;
  text-transform: uppercase;
 }
 
+.box_sm_rm:hover{
+  background-color:  #f2f2f2;
+  font-size: 21px;
+}
+
 .box_sm_rm_no{
  width: 180px;
  height: 60px;
@@ -453,6 +485,10 @@ background-color: #f2f2f2;
  text-transform: uppercase;
 }
 
+.box_sm_rm_no:hover{
+ font-size: 21px;
+}
+
 .box_lg_rm{
  width: 180px;
  height: 60px;
@@ -461,6 +497,10 @@ background-color: #f2f2f2;
  margin-left: 145px;
  margin-top: 40px;
  padding-top: 16px;
+}
+
+.box_lg_rm a:hover{
+  font-size: 21px;
 }
 
 .box_lg_rm a{
